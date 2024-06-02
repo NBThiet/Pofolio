@@ -1,0 +1,119 @@
+.containerMainSkill{
+    display: none;
+    background-color: rgb(36, 39, 59);
+    width: 88%;
+    height: 600px;
+    position: relative;
+    overflow-y: scroll;
+}
+.containerMainSkill::-webkit-scrollbar-track
+{
+	border-radius: 10px;
+	background-color: rgb(21, 23, 40);
+}
+
+.containerMainSkill::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: rgb(21, 23, 40);
+}
+
+.containerMainSkill::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: #2e2e30;
+}
+.mainSkill{
+    display: flex;
+    flex-direction: row;
+    max-width: 96%;
+    height: 650px;
+    margin-left: 2%;
+    margin-top:20px;
+    border-radius: 10px;
+    background-color:rgb(21, 23, 40);
+}
+
+.boxSkill{
+    padding-top: 30px;
+    margin-left: 50px;
+    width: 50%;
+}
+
+.titleSkill{
+    font-size: 20px;
+    margin-top: 20px;
+    color: aliceblue;
+}
+.skills{
+    position: relative;
+    margin-bottom: 20px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+}
+.imgSkill{
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+}
+.imgSkill img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    /* box-shadow: 0px 0px 40px 0px rgba(16, 179, 255, 0.8); */
+    border: 2px solid #46ccf5;
+}
+.boxExpert{
+    margin-left: 80px;
+    height: 30px;
+    position: absolute;
+    width: 80%;
+    bottom: 0;
+    border-radius: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: beige;
+}
+.expert{
+   
+    height: 30px;
+    border-radius: 100px;
+    box-shadow: 3px 0px 3px 0px rgba(182, 180, 180, 0.8);
+    background-color: #fafa7e;
+    transform-origin: left;
+    animation: expertAni 3s forwards;
+}
+@keyframes expertAni{
+    0%{transform: scaleX(0);}
+
+    100%{transform: scaleX(1);}
+}
+
+.expert1_1{
+    width: 80%;
+    
+}
+.expert1_2{
+    width: 90%;
+}
+.expert1_3{
+    width: 80%;
+}
+.expert1_4{
+    width: 70%;
+}
+.expert2_1{
+    width: 90%;
+}
+.expert2_2{
+    width: 70%;
+}
+.expert2_3{
+    width: 60%;
+}
+.expert2_4{
+    width: 80%;
+}

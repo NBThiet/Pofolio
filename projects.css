@@ -1,0 +1,138 @@
+.containerProjects{
+    display: none;
+    background-color: rgb(36, 39, 59);
+    width: 88%;
+    height: 600px;
+    position: relative;
+    overflow-y: scroll;
+}
+
+.containerProjects::-webkit-scrollbar-track
+{
+	border-radius: 10px;
+	background-color: rgb(21, 23, 40);
+}
+
+.containerProjects::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: rgb(21, 23, 40);
+}
+
+.containerProjects::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: #2e2e30;
+}
+.project{
+    max-width: 96%;
+    height: 520px;
+    margin-left: 2%;
+    margin-top:20px;
+    border-radius: 10px;
+    background-color:rgb(21, 23, 40);
+}
+
+.boxAvatarPrj{
+    padding-top: 25px;
+    margin-left: 2%;
+    width: 96%;
+    display: flex;
+    flex-direction: row;
+}
+
+.avtPrj{
+    width: 200px;
+    max-height: 260px;
+    border-radius: 10px;
+}
+.avtPrj img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.namePrj{
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: aliceblue;
+}
+.boxConTentPrj{
+    margin-left: 20px;
+    margin-top: 20px;
+    max-width: 75%;
+    min-width: 750px;
+}
+
+.contentPrj{
+    font-size: 12px;
+    max-width: 80%;
+    height: 200px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-style: normal;
+    color: aliceblue;
+}
+
+.imgPrj{
+    margin-top: 20px;
+    margin-left: 2%;
+    height: 180px;
+    width: 96%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btnArrow{
+    width: 5%;
+    height: 100%;
+    
+    align-content: center;
+}
+.btnArrow .fa-solid{
+    padding: 5px 10px;
+    font-size: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    color: rgb(21, 23, 40);
+    background-color: #F1F1E6;
+
+}
+.boxImgPrjChilds{
+width: 88%;
+height: 100%;
+border-radius: 10px;
+display: flex;
+flex-direction: row;
+/* justify-content: space-between; */
+scroll-behavior: smooth;
+scroll-snap-type: x mandatory;
+
+overflow: auto;
+overflow: -moz-scrollbars-none;
+-ms-overflow-style: none;
+}
+.boxImgPrjChilds::-webkit-scrollbar{
+    width: 0 !important;
+    display: none; 
+}
+.imgPrjChilds{
+    margin-right: 30px;
+    width: 30%;
+    height: 96%;
+    border-radius: 10px;
+    background-color: #2e2e30;
+    flex-shrink: 0
+}
+.imgPrjChilds img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}

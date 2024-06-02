@@ -1,0 +1,225 @@
+@media only screen and (max-width:1024px) and (min-width:741px){
+
+.mainList .ContainerEmail{
+    display: none;
+
+}
+.fa-address-card{
+    display: block;
+    font-size: 22px;
+    color: rgb(160, 160, 160);
+    margin-top: 20px;
+}
+.mainList{
+    width:2%;
+    background-color:rgb(21, 23, 40);
+    
+}
+.containerInf{
+    width:78%;
+
+}
+.name{
+    margin-left: 30%;
+}
+.tabbar{
+    justify-content: flex-end;
+}
+.Inf1,.Inf2{
+    height: 230px;
+}
+
+.project_child_1{
+  height: 250px;
+}
+.project_child_1 img{
+   height:140px;
+
+}
+.mainMenu{
+ width: 20%;
+}
+.EmailMB{
+    display:none;
+}
+.EmailMB{
+   
+    z-index:1;
+    top:0px;
+    bottom:0px;
+    position: absolute;
+    height: 600px;
+    width: 97%;
+    margin-left:-10px;
+    background-color: rgba(53, 48, 48, 0.5);
+    display: flex;
+    justify-content: flex-end;
+}
+.EmailMB .ContainerEmail{
+    height:650px;
+    background-color: rgb(21, 23, 40);
+    width: 250px;
+    right: 0px;
+
+}
+.myEmail,
+.calendar{
+    margin-left: 20px;
+    width: 80%;
+}
+}
+
+@media only screen and (max-width:740px){
+body{
+    position: relative;
+}
+.mainList{
+width:2%;
+background-color:rgb(21, 23, 40);
+
+}
+.fa-address-card{
+    display: block;
+}
+.mainList .ContainerEmail{
+        display: none;
+    
+    }
+.containerInf{
+        width:90%;
+        
+    
+    }
+    .fa-address-card{
+        display: block;
+        font-size: 22px;
+        color: rgb(160, 160, 160);
+        margin-top: 20px;
+    }
+    .EmailMB{
+        display:none;
+        z-index:1;
+        top:0px;
+        bottom:0px;
+        position: absolute;
+        height: 600px;
+        width: 97%;
+        margin-left:-10px;
+        background-color: rgba(53, 48, 48, 0.5);
+        display: flex;
+        justify-content: flex-end;
+    }
+    .EmailMB .ContainerEmail{
+        height:650px;
+        background-color: rgb(21, 23, 40);
+        width: 250px;
+        right: 0px;
+    
+    }
+    .myEmail,
+    .calendar{
+        margin-left: 20px;
+        width: 80%;
+    }
+.name{
+        margin-left: 41%;
+    }
+.img-avt{
+       margin-top: -170px;
+        height: 100px;
+        margin-left: 38%;
+        border-radius: 50%;
+        border-width: 5px;
+        border: 3px solid #fff;
+        position: absolute;
+    
+    }
+    .tabbar{
+        justify-content:center;
+    }
+    .Inf{
+        flex-direction:column;
+
+    }
+    .Inf1,.Inf2{
+        height: 230px;
+        width: 80%;
+        margin-left:10%;
+        margin-bottom: 20px;
+    }
+    
+    .project_child_1{
+      height: 200px;
+    }
+    .project_child_1 img{
+       height:110px;
+    
+    }
+    .mainMenu{
+     width: 6%;
+    }
+.mainMenu .boxMenu{
+    display: none;
+}
+.titleHead{
+    transform: rotate(270deg);
+    margin-top: 120px;
+    margin-left:-45px;
+    width:100px;
+}
+    
+.fa-bars{
+    display: block;
+    color: #fff;
+    font-size: 20px;
+    z-index: 2;
+}
+.mainMenu{
+    position: relative;
+}
+.MenuMB{
+    
+    z-index:1;
+    top:0px;
+    bottom:0px;
+    position: absolute;
+    height: 600px;
+    width: 96%;
+    background-color: rgba(53, 48, 48, 0.5);
+    margin-left: 6%;
+    margin-top:-5px;
+    
+}
+.MenuMB .boxMenu{
+    overflow: scroll;
+    height:600px;
+    background-color: rgb(21, 23, 40);
+    padding-top: -50px;
+    width: 200px;
+
+   
+    
+}
+.MenuMB .menu{
+    margin-top:1px;
+}
+
+
+.MenuMB .boxMenu::-webkit-scrollbar-track
+{
+	border-radius: 10px;
+	background-color: rgb(21, 23, 40);
+}
+
+.MenuMB .boxMenu::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: rgb(21, 23, 40);
+}
+
+.MenuMB .boxMenu::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: #2e2e30;
+}
+}
